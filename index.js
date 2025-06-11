@@ -38,7 +38,7 @@ app.post("/shorten", (req, res) => {
 
   res.json({
     success: true,
-    shortUrl: `http://localhost:${PORT}/${shortUrl}`,
+    shortUrl: `https://url-shortner-rref.onrender.com/${shortUrl}`,
   });
 });
 
